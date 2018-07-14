@@ -1,7 +1,7 @@
 
 window.chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
   const activeTab = arrayOfTabs[0];
-  if(activeTab.url.match(/www.tsrtconline.in\/oprs-web\//g)) {
+  if(activeTab.url.match(/www.tsrtconline.in/g)) {
   	var sourceElement = document.getElementsByClassName("body-style")[0];
 	sourceElement.classList.remove("hide");
   	

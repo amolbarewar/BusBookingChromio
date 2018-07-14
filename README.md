@@ -14,4 +14,4 @@ Once you click on the extension it will ask you all the details in single place.
 
 
 How To Use:
-1. Download the souce code. Then go to chrome://extensions/ page on your chrome browser. Now select the option for "LOAD UNPACKED" and select the directory of downloaded source code. 
+1. Download the souce code. Then go to chrome://extensions/ page on your chrome browser. Now select the option for "LOAD UNPACKED" and select the directory of downloaded source code(you need to select src folder). 
