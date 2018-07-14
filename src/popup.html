@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title> Book Bus Ticket</title>
+  <link rel="stylesheet" type="text/css" href="ticketBooking.css">
+</head>
+<body class="body-style hide">
+
+<h1>Please fill below Details to Book the ticket</h1>
+
+<div class="source-container heading-text">
+	<p> Insert your Source</p>
+	<input type="text" name="source" class="source ticket-input"> <br>
+	<button type="submit" value="save" class="save-button source-save-button">Save</button>
+</div>
+
+<div class="destination-container hide heading-text">
+	<p> Insert your Destination</p>
+	<input type="text" name="destination" class="destination ticket-input"> <br>
+	<button type="submit" value="save" class="save-button destination-save-button">Save</button>
+</div>
+
+<div class="date-container hide heading-text">
+	<p> Insert your date of travel</p>
+	<input type="text" name="journey-date" class="journey-date ticket-input"> <br>
+	<button type="submit" value="save" class="save-button date-save-button">Save</button>
+</div>
+
+<div class="booking-progress-container hide">
+	<span class="booking-progress">
+		Your ticket is getting booked!!!!
+	</span>
+</div>
+
+<script src="ticketBooking.js"></script>
+</body>
+</html>

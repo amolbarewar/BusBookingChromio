@@ -1,0 +1,20 @@
+{
+    "name": "Getting Started Example",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "browser_action": {
+		"default_popup": "popup.html"
+	},
+    "content_scripts": [
+      {
+        "matches": ["https://www.tsrtconline.in/*", "http://*/*"],
+        "js": ["jquery.js","content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "manifest_version": 2
+}
